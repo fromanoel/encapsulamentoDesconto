@@ -4,7 +4,7 @@ public abstract class Cliente {
     private String tipo;
 
 
-    public Cliente(String nome, String tipo2) {
+    protected Cliente(String nome, String tipo2) {
         this.nome = nome;
         this.tipo = tipo;
     }
