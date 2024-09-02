@@ -1,3 +1,4 @@
+package cliente;
 public class ClienteJuridico extends Cliente{
 
     public ClienteJuridico(String nome, String tipo) {

@@ -1,3 +1,4 @@
+package cliente;
 public class Produto{
     private String nome;
     private double precoBase;

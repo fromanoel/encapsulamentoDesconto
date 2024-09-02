@@ -1,3 +1,10 @@
+
+
+import cliente.Cliente;
+import cliente.ClienteFisico;
+import cliente.ClienteJuridico;
+import cliente.Produto;
+
 public class App {
     public static void main(String[] args) {
         Produto produto = new Produto("Garrafa", 100);
