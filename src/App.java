@@ -1,5 +1,5 @@
 public class App {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         Produto produto = new Produto("Garrafa", 100);
 
         Cliente cliente1 = new ClienteJuridico("Empresa S", "Juridico");
