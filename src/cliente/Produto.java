@@ -24,8 +24,7 @@ public class Produto{
     public double calcularPrecoFinal(Cliente cliente){
         double valorComDesconto = cliente.aplicarDesconto(precoBase);
         double valorComImposto = aplicarImposto(valorComDesconto);
-        double valorComTaxa = aplicarTaxaAdicional(valorComImposto);
-        return valorComTaxa;
+        return aplicarTaxaAdicional(valorComImposto);
     }
 
 
